@@ -1,0 +1,25 @@
+# Python / FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+
+# Env vars
+.env
+
+# DB local (SQLite)
+*.db
+
+# Alembic (incluye migraciones; mantenlas)
+# (no ignores alembic/)
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
