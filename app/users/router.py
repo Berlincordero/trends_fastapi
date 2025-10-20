@@ -66,3 +66,4 @@ async def me(
     if not user:
         raise HTTPException(status_code=404, detail="user not found")
     return user
+ 
